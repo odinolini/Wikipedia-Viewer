@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikipedia viewer</title>
+    
+    <style>
+    
+    body {
+        font-family:roboto;
+    }
+    .infodisplay {
+        width:40%;
+        padding:1rem;
+        margin: 0 auto !important;
+        margin-bottom: 1rem;
+    }
+    .input-field {
+      width: 40%;
+    }
+    .centerf {
+        margin:0 auto;
+    }
+
+    
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+</head>
+<body>
+    <div class="center">
+        <h1>Wikipedia viewer</h1>
+        
+        <div class="input-field centerf">
+          <input placeholder="Search" type="text" id="wikisearch" class="centerf"> </input></div>
+        <button id="applysearch" class="btn waves-effect waves-light">Search</button><button id="getrnd" class="btn waves-effect waves-light" type="button">Get random article</button>
+        
+        <p id="results"></p>
+        
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
